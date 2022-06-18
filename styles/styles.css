@@ -6,6 +6,9 @@
 body{
     background-color:#ACC8E5;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+min-height: 100vh;
 }
 header{
     display: flex;
@@ -88,8 +91,9 @@ header{
 }
 
 footer{
-    display: flex;
-    position: absolute;
+    text-align: center;
+    margin-top: auto;
+    bottom: 0;
     font-size: 20px;
     width: 100%;
 }
@@ -99,7 +103,7 @@ footer{
     padding: 30px;
 }
 .parrafo img{
-    width: 100%;
+    width: 450px;
 }
 .menu2 a{
     font-size: 20px;
