@@ -137,7 +137,6 @@ footer{
 }
 .contenido .texto{
     display: flex;
-    
     padding: 5px;
     justify-content:left 
 }
@@ -162,8 +161,9 @@ footer{
         background-color: #2e6329;
     }
         }
-.navbar{
-    display: flex
-    
+.container .bi{
+    color: black;
+
 }
+
 
