@@ -10,6 +10,8 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    min-width: 100vh;
+    
 
 }
 header{
@@ -106,6 +108,7 @@ footer{
 }
 .parrafo img{
     width: 450px;
+    max-width: 100%;
 }
 .menu2 a{
     font-size: 20px;
@@ -122,13 +125,13 @@ footer{
     }
 }
 .contenido {
-
     display: grid;
     list-style: none;
     grid-template-columns: repeat(2, 3fr);
     grid-template-rows: 1fr 1fr 1fr;
     padding: 20px;
     margin-inline: 30px;
+    gap: 30px;
 }
 
 .contenido img{
@@ -143,6 +146,9 @@ footer{
 @media screen and (max-width: 800px){
     body{
         background-color: #046be0;
+    }
+    .parrafo{
+        flex-direction: column;
     }
     .menu{
         display: block;
@@ -163,7 +169,23 @@ footer{
         }
 .container .bi{
     color: black;
-
+    padding: 20px;
 }
-
-
+.carousel {
+    width: 640px; 
+    height: 360px; 
+}
+.carousel-inner{
+    text-align: center;
+}
+.carousel .item > img{
+    display: inline-block;
+}
+.collapse{
+    justify-content: space-between;
+}
+.navbar-nav .nav-link .active{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
