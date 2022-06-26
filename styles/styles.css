@@ -5,7 +5,7 @@
 
 }
 body{
-    background-color:#ACC8E5;
+    background-color: #dae9b4;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -117,7 +117,7 @@ footer{
 
 @media screen and (max-width: 800px){
     body{
-        background-color: #046be0;
+        background-color: #B3D6C6;
     }
     .parrafo{
         flex-direction: column;
