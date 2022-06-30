@@ -1,0 +1,28 @@
+body{
+    background-color: #dae9b4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.caja1w{
+
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 0.8px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+
+    &.hover{
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+    
+    .boton{
+        width: 25px;
+        transition: ease 1s;
+    }
+}

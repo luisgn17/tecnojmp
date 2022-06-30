@@ -1,0 +1,14 @@
+@keyframes efecto {
+    0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+}
+
+@media screen and (max-width: 800px){
+    body{
+        background-color: #B3D6C6;
+    }
+    }
