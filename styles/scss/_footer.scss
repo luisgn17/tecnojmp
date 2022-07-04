@@ -1,16 +1,23 @@
 footer{
-    
+
     .bi{
-        font-size: 20px;
         color: black;
         padding: 20px;
-        transition: 0.5s all ease-in-out;
-        transform: scale(5);
+        font-size: 20px;
+        transition: all ease-in-out 0.5s;
+        &::before{
+            transition: all ease-in-out 0.5s;
+        }
 
         &:hover{
-            
-            color: rgba(243, 40, 13, 0.918);  
+
+
+        &::before{
+            transform: scale(3);
+            color: rgba(243, 40, 13, 0.918); 
         }
+        }
+        
     }
     
 }
