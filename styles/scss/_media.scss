@@ -11,4 +11,23 @@
     body{
         background-color: #B3D6C6;
     }
-    }
+}
+
+@mixin threed-button($base-color){
+            $shadow: "";
+        
+            @for $i from 1 through 4{
+            $shadow: $shadow + "#{$i}px #{$i}px 0px 2px " + darken($base-color,$i*5) + ",";
+            } 
+        
+            $shadow : str-slice($shadow,0,str-length($shadow)-1);
+            appearance: none;
+            border:none;
+            background: $base-color;
+            box-shadow: unquote($shadow);
+        }
+        .Botton{
+            @include threed-button(#ff4040);
+            font-size:28px;
+            color:rgb(17, 14, 14);
+        }

@@ -50,6 +50,7 @@ footer .bi:hover::before {
   background-image: url("../media/imagennavbar.jpg");
   background-size: cover;
   background-position: center center;
+  image-resolution: 3;
 }
 .navbar .nav-link {
   color: white;
@@ -77,4 +78,14 @@ footer .bi:hover::before {
   body {
     background-color: #B3D6C6;
   }
+}
+.Botton {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  background: #ff4040;
+  box-shadow: 1px 1px 0px 2px #ff2727,2px 2px 0px 2px #ff0d0d,3px 3px 0px 2px #f30000,4px 4px 0px 2px #d90000;
+  font-size: 28px;
+  color: rgb(17, 14, 14);
 }/*# sourceMappingURL=estilos.css.map */
