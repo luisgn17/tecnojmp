@@ -5,24 +5,25 @@ footer{
         padding: 20px;
         font-size: 20px;
         transition: all ease-in-out 0.5s;
-        &::before{
-            transition: all ease-in-out 0.5s;
-        }
+
+            &::before{
+                transition: all ease-in-out 0.5s;
+            }
 
         &:hover{
 
-
-        &::before{
-            transform: scale(3);
-            color: rgba(243, 40, 13, 0.918);
-        }
+            &::before{
+                transform: scale(3);
+                color: rgba(243, 40, 13, 0.918);
+            }
         }
     }
-}
-.piepag{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    font-style: oblique;
+    
+    .piepag{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        font-style: oblique;
+    }
 }

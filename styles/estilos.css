@@ -23,7 +23,7 @@ body {
   -webkit-animation: efecto 1.2s infinite;
           animation: efecto 1.2s infinite;
 }
-.caja1w.hover {
+.caja1w:hover {
   transform: scale(1.1);
   transition: 0.3s;
 }
@@ -45,8 +45,7 @@ footer .bi:hover::before {
   transform: scale(3);
   color: rgba(243, 40, 13, 0.918);
 }
-
-.piepag {
+footer .piepag {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,11 +57,11 @@ footer .bi:hover::before {
   background-image: url("../media/imagennavbar.jpg");
   background-size: cover;
   background-position: center center;
-  image-resolution: 3;
 }
 .navbar .nav-link {
   color: white;
   background-color: rgba(0, 0, 0, 0.603);
+  padding-left: 20px;
 }
 
 @-webkit-keyframes efecto {
